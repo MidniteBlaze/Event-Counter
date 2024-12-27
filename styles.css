@@ -1,0 +1,74 @@
+body {
+    background: darkslategray;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: 10%;
+}
+
+#counterContainer h1,
+#counterDisplay {
+    text-shadow: 0 0 5px #fff, 0 0 8px #000000;
+}
+
+#counterContainer {
+    background: linear-gradient(to bottom right, rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.5)),
+    url('https://d194ip2226q57d.cloudfront.net/images/Event-Guide_Header_CO-Shutterstock.original.jpg');
+    background-size: cover;
+    background-position: center;
+    width: 300px;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+}
+
+#counterDisplay {
+    font-size: 3rem;
+    margin-bottom: 20px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: center;
+    gap: 15%;
+    width:100%;
+}
+
+#addButton {
+    background-color: #4caf50;
+    color: white;
+}
+
+#addButton:hover {
+    background-color: #45a049;
+}
+
+#addButton:active {
+    background-color: #71c273;
+}
+
+#resetButton {
+    background-color: #f44336;
+    color: white;
+}
+
+#resetButton:hover {
+    background-color: #e53935;
+}
+
+#resetButton:active {
+    background-color: #f3574c;
+}
+
+button {
+    border-radius: 15px;
+    width: 45%;
+    padding: 10px;
+    border: none;
+    font-size: 13px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+}
